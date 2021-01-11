@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+} 
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  background: black;
+  color: white;
+  line-height: 1.5;
+  font-size: 1.3em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  padding: .5em;
+}
+
+header img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+article {
+  flex: 1 0 auto;
+  width: 860px;
+  margin: 2em auto;
+  padding: 0 2em;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 0 2em;
+}
+
+button {
+  background: none;
+  color: white;
+  border: 2px solid white;
+  margin: .25em 1em .25em 0;
+  padding: .5em;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+button:focus {
+  outline: 0;
+  color: #F8FC4F;
+  border-color: #F8FC4F;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #F8FC4F;
+  border-color: #F8FC4F;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  color: white;
+}
+
+#content .options {
+  display: flex;
+  margin: 2em 0;
+}
+
+#content .options button {
+  flex: 1 0 auto;
+}
+
+#player {
+  text-align: center;
+}
+
+#player > div {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#player #play, #player #pause {
+  font-size: 3em;
+}
+
+@media (max-width: 860px) {
+  body {
+    font-size: 1.15em;
+  }
+
+  article {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+}

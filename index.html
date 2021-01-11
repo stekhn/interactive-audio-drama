@@ -2,6 +2,9 @@
 <html lang="de">
   <head>
     <title>Interaktives Hörspiel</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="./css/icons.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -15,29 +18,26 @@
     <header>
       <img src="./img/logo-m945.png" alt="Ein Projekt von M94.5">
     </header>
-
-    <article>
-      <section id="content">
-        <h1>Willkommen</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum?
-        </p>
-        <p><i class="icon-volume-up"></i> Bitte schalte jetzt deine Lautsprecher ein oder verwende Kopfhörer.</p>
-        <div class="options">
-          <button id="start">Interaktives Hörspiel beginnen <i class="icon-angle-right"></i></button>
-        </div>
-      </section>
-      <section id="player" style="display: none;">
-        <div id="skip-left"><i class="icon-skip-left"></i></div>
-        <div id="play"><i class="icon-play"></i></div>
-        <div id="pause" style="display: none;"><i class="icon-pause"></i></div>
-        <div id="skip-right"><i class="icon-skip-right"></i></div>
-      </section>
+    <article id="content">
+      <h1>Willkommen</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum?
+      </p>
+      <p><i class="icon-volume-up"></i> Bitte schalte jetzt deine Lautsprecher ein oder verwende Kopfhörer.</p>
+      <div class="options">
+        <button id="start">Interaktives Hörspiel beginnen <i class="icon-angle-right"></i></button>
+      </div>
     </article>
-
+    <section id="wave"></section>
+    <section id="player" style="display: none;">
+      <div id="skip-left"><i class="icon-skip-left"></i></div>
+      <div id="play"><i class="icon-play"></i></div>
+      <div id="pause" style="display: none;"><i class="icon-pause"></i></div>
+      <div id="skip-right"><i class="icon-skip-right"></i></div>
+    </section>
     <footer>
       <p>
         M94.5 ist ein Angebot der Mediaschool Bayern<br />

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "intro",
+    "title": "Intro",
+    "text": "Lorem ipsum dolores sit amet",
+    "audio": "./mp3/sample.mp3",
+    "options": [
+      {
+        "link": "chapter-1",
+        "description": "Go to chapter 1"
+      },
+      {
+        "link": "chapter-2",
+        "description": "Go to chapter 2"
+      }
+    ]
+  },
+  {
+    "id": "chapter-1",
+    "title": "Chapter 1",
+    "text": "Lorem ipsum dolores sit amet",
+    "audio": "./mp3/sample.mp3",
+    "options": [
+      {
+        "link": "chapter-2",
+        "description": "Go to chapter 2"
+      },
+      {
+        "link": "end",
+        "description": "Go to end"
+      }
+    ]
+  },
+  {
+    "id": "chapter-2",
+    "title": "Chapter 2",
+    "text": "Lorem ipsum dolores sit amet",
+    "audio": "./mp3/sample.mp3",
+    "options": [
+      {
+        "link": "end",
+        "description": "Go to end"
+      }
+    ]
+  },
+  {
+    "id": "end",
+    "title": "End",
+    "text": "Lorem ipsum dolores sit amet",
+    "audio": "./mp3/sample.mp3",
+    "options": []
+  }
+]

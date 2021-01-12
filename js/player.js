@@ -23,8 +23,14 @@ function setupPage(data) {
 
   elements.startButton = document.querySelector('#start');
   elements.content = document.querySelector('#content');
-  elements.wave = document.querySelector('#wave');
   elements.player = document.querySelector('#player');
+  elements.playButton = document.querySelector('#player .play');
+  elements.pauseButton = document.querySelector('#player .pause');
+  elements.skipLeftButton = document.querySelector('#player .skip-left');
+  elements.skipRightButton = document.querySelector('#player .skip-right');
+  elements.progress = document.querySelector('#player .progress');
+  elements.progressBar = document.querySelector('#player .progress-bar');
+  elements.wave = document.querySelector('#player .wave');
 
   elements.startButton.addEventListener('click', function () {
     var introObject = storyData.filter(function (storyObject) {
@@ -32,20 +38,16 @@ function setupPage(data) {
     })[0];
     
     elements.player.style.display = 'block';
-
     setupWave();
     updatePage(introObject);
-  });
+  }, false);
 
-  elements.playButton = document.querySelector('#play');
-  elements.pauseButton = document.querySelector('#pause');
-  elements.skipLeftButton = document.querySelector('#skip-left');
-  elements.skipRightButton = document.querySelector('#skip-right');
+  elements.playButton.addEventListener('click', startPlayer, false);
+  elements.pauseButton.addEventListener('click', pausePlayer, false);
+  elements.skipLeftButton.addEventListener('click', skipLeftPlayer, false);
+  elements.skipRightButton.addEventListener('click', skipRightPlayer, false);
 
-  elements.playButton.addEventListener('click', startPlayer);
-  elements.pauseButton.addEventListener('click', pausePlayer);
-  elements.skipLeftButton.addEventListener('click', skipLeftPlayer);
-  elements.skipRightButton.addEventListener('click', skipRightPlayer);
+  elements.progress.addEventListener('click', skipTo, false);
 }
 
 function updatePage(storyObject) {
@@ -89,6 +91,12 @@ function updatePlayer(storyObject) {
   player = new Howl({
     src: [storyObject.audio],
     onend: resetPlayer,
+    onplay: function () {
+      requestAnimationFrame(updateProgressBar);
+    },
+    onseek: function () {
+      requestAnimationFrame(updateProgressBar);
+    }
   });
 
   startPlayer();
@@ -130,12 +138,32 @@ function skipRightPlayer() {
   player.seek(currentPosition + 15);
 }
 
+function skipTo(event) {
+  var elementWidth = event.target.clientWidth;
+  var elementRect = event.target.getBoundingClientRect();
+  var clickX = event.clientX - elementRect.left;
+  var fractionX = clickX / elementWidth;
+  var newPosition = player.duration() * fractionX;
+
+  player.seek(newPosition);
+}
+
+function updateProgressBar() {
+  var currentPosition = player.seek() || 0;
+  
+  if (player.playing()) {
+    elements.progressBar.style.width = Math.round(((currentPosition / player.duration()) * 100) || 0) + '%';
+    requestAnimationFrame(updateProgressBar);
+  }
+}
+
 function setupWave() {
   wave = new SiriWave({
     container: elements.wave,
     width: window.innerWidth,
     height: window.innerHeight * 0.3,
     cover: true,
+    color: '#F8FC4F',
     speed: 0.03,
     amplitude: 0.7,
     frequency: 2
@@ -159,4 +187,3 @@ function updateWave() {
   wave.canvas.height = height;
   wave.canvas.width = width;
 };
-  

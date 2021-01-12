@@ -42,6 +42,7 @@ footer {
 }
 
 button {
+  width: 100%;
   background: none;
   color: white;
   border: 2px solid white;
@@ -77,22 +78,46 @@ a {
 }
 
 #content .options button {
-  flex: 1 0 auto;
+  flex: 1 0 50%;
 }
 
 #player {
+  position: relative;
   text-align: center;
+  margin-bottom: 4em;
 }
 
-#player > div {
+#player .control {
   vertical-align: middle;
   display: inline-block;
   font-size: 1.5em;
   cursor: pointer;
 }
 
-#player #play, #player #pause {
+#player .play, #player .pause {
   font-size: 3em;
+}
+
+#player .progress {
+  cursor: pointer;
+  width: 170px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,.5);
+}
+
+#player .progress-bar {
+  height: 5px;
+  width: 0%;
+  background-color: white;
+  transition: width 500ms;
+}
+
+#player .wave {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 @media (max-width: 860px) {
@@ -108,5 +133,13 @@ a {
 @media (max-width: 480px) {
   body {
     font-size: 1em;
+  }
+
+  #player {
+    margin-bottom: 2em;
+  }
+
+  #content .options {
+    flex-direction: column;
   }
 }

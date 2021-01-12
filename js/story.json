@@ -2,7 +2,7 @@
   {
     "id": "intro",
     "title": "Intro",
-    "text": "Lorem ipsum dolores sit amet",
+    "text": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, imperdiet a venenatis vitae justo. Nullam dictum felis eu pede mollis pretium.",
     "audio": "./mp3/sample.mp3",
     "options": [
       {
@@ -18,7 +18,7 @@
   {
     "id": "chapter-1",
     "title": "Chapter 1",
-    "text": "Lorem ipsum dolores sit amet",
+    "text": "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula porttitor eu consequat vitae, eleifend ac enim.",
     "audio": "./mp3/sample.mp3",
     "options": [
       {
@@ -34,7 +34,7 @@
   {
     "id": "chapter-2",
     "title": "Chapter 2",
-    "text": "Lorem ipsum dolores sit amet",
+    "text": "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.",
     "audio": "./mp3/sample.mp3",
     "options": [
       {
@@ -46,7 +46,7 @@
   {
     "id": "end",
     "title": "End",
-    "text": "Lorem ipsum dolores sit amet",
+    "text": "Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.",
     "audio": "./mp3/sample.mp3",
     "options": []
   }

@@ -29,15 +29,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-volume-off:before { content: '\e800'; }
+.icon-headphones:before { content: '\e800'; }
 .icon-volume-down:before { content: '\e801'; }
 .icon-volume-up:before { content: '\e802'; }
-.icon-play:before { content: '\e804'; }
-.icon-headphones:before { content: '\e805'; }
+.icon-play:before { content: '\e803'; }
+.icon-pause:before { content: '\e804'; }
+.icon-volume-off:before { content: '\e805'; }
 .icon-skip-left:before { content: '\e806'; }
 .icon-skip-right:before { content: '\e807'; }
-.icon-pause:before { content: '\e808'; }
-.icon-music:before { content: '\e809'; }
+.icon-volume:before { content: '\e80a'; }
+.icon-music:before { content: '\e80d'; }
 .icon-angle-left:before { content: '\f104'; }
 .icon-angle-right:before { content: '\f105'; }
 .icon-angle-up:before { content: '\f106'; }

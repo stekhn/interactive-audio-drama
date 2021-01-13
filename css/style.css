@@ -19,13 +19,26 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-header {
-  padding: .5em;
+header .logo-wrapper {
+  display: inline-block;
+  height: 70px;
+  background: #ff0000;
 }
 
-header img {
+header .logo-wrapper a {
+  text-decoration: none;
+}
+
+header .logo {
   height: 40px;
-  margin-right: 15px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+header .slash {
+  height: 100%;
+  vertical-align: middle;
+  background: black;
 }
 
 article {
@@ -39,6 +52,7 @@ footer {
   flex-shrink: 0;
   text-align: center;
   padding: 0 2em;
+  line-height: 1.25;
 }
 
 button {

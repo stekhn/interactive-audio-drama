@@ -47,6 +47,19 @@ function setupPage(data) {
   elements.skipLeftButton.addEventListener('click', skipLeftPlayer, false);
   elements.skipRightButton.addEventListener('click', skipRightPlayer, false);
 
+  elements.playButton.addEventListener('keyup', function (event) {
+    if (event.keyCode === 13) { startPlayer(); }
+  }, false);
+  elements.pauseButton.addEventListener('keyup', function (event) {
+    if (event.keyCode === 13) { pausePlayer(); }
+  }, false);
+  elements.skipLeftButton.addEventListener('keyup', function (event) {
+    if (event.keyCode === 13) { skipLeftPlayer(); }
+  }, false);
+  elements.skipRightButton.addEventListener('keyup', function (event) {
+    if (event.keyCode === 13) { skipRightPlayer(); }
+  }, false);
+
   elements.progress.addEventListener('click', skipTo, false);
 }
 
@@ -129,13 +142,22 @@ function resetPlayer() {
 function skipLeftPlayer() {
   var currentPosition = player.seek();
 
-  player.seek(currentPosition - 15);
+  if (currentPosition > 15) {
+    player.seek(currentPosition - 15);
+  } else {
+    player.seek(1);
+  }
 }
 
 function skipRightPlayer() {
   var currentPosition = player.seek();
+  var duration = player.duration();
 
-  player.seek(currentPosition + 15);
+  if (duration - currentPosition > 15) {
+    player.seek(currentPosition + 15);
+  } else {
+    player.seek(duration - 1);
+  }
 }
 
 function skipTo(event) {
@@ -145,6 +167,9 @@ function skipTo(event) {
   var fractionX = clickX / elementWidth;
   var newPosition = player.duration() * fractionX;
 
+  console.log(event.target);
+  console.log(fractionX, player.duration(), newPosition);
+  
   player.seek(newPosition);
 }
 
@@ -163,7 +188,7 @@ function setupWave() {
     width: window.innerWidth,
     height: window.innerHeight * 0.3,
     cover: true,
-    color: '#F8FC4F',
+    color: '#ffffff',
     speed: 0.03,
     amplitude: 0.7,
     frequency: 2

@@ -27,6 +27,13 @@ header .logo-wrapper {
 
 header .logo-wrapper a {
   text-decoration: none;
+  display: inline-block;
+
+}
+
+header .logo-wrapper a:focus {
+  outline: 0;
+  box-shadow: 0 3px 0 #F8FC4F;
 }
 
 header .logo {
@@ -34,6 +41,7 @@ header .logo {
   margin-left: 15px;
   vertical-align: middle;
 }
+
 
 header .slash {
   height: 100%;
@@ -64,6 +72,7 @@ button {
   padding: .5em;
   font-family: inherit;
   font-size: 1em;
+  transition: all 500ms;
 }
 
 button:focus {
@@ -86,6 +95,11 @@ a {
   color: white;
 }
 
+a:focus {
+  outline: 0;
+  color: #F8FC4F;;
+}
+
 #content .options {
   display: flex;
   margin: 2em 0;
@@ -106,6 +120,13 @@ a {
   display: inline-block;
   font-size: 1.5em;
   cursor: pointer;
+  transition: color 500ms;
+  margin: .25em;
+}
+
+#player .control:focus {
+  outline: 0;
+  color: #F8FC4F;
 }
 
 #player .play, #player .pause {
@@ -114,7 +135,7 @@ a {
 
 #player .progress {
   cursor: pointer;
-  width: 170px;
+  width: 8em;
   margin: 0 auto;
   background-color: rgba(255,255,255,.5);
 }
@@ -123,12 +144,12 @@ a {
   height: 5px;
   width: 0%;
   background-color: white;
-  transition: width 500ms;
+  pointer-events: none;
 }
 
 #player .wave {
   position: absolute;
-  top: -100%;
+  top: -50%;
   left: 0;
   right: 0;
   z-index: -1;

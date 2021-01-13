@@ -147,6 +147,8 @@ function skipLeftPlayer() {
   } else {
     player.seek(1);
   }
+
+  elements.skipLeftButton.blur();
 }
 
 function skipRightPlayer() {
@@ -158,6 +160,8 @@ function skipRightPlayer() {
   } else {
     player.seek(duration - 1);
   }
+
+  elements.skipRightButton.blur();
 }
 
 function skipTo(event) {

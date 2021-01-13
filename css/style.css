@@ -37,7 +37,6 @@ header .logo-wrapper a:focus {
 }
 
 header .logo {
-  height: 40px;
   margin-left: 15px;
   vertical-align: middle;
 }
@@ -168,6 +167,19 @@ a:focus {
 @media (max-width: 480px) {
   body {
     font-size: 1em;
+  }
+
+  header .logo-wrapper {
+    height: 50px;
+  }
+
+  header .logo {
+    height: 30px;
+  }
+
+  article {
+    margin: 1em auto;
+    padding: 0 1em;
   }
 
   #player {

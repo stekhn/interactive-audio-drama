@@ -178,8 +178,8 @@ a:focus {
   }
 
   article {
-    margin: 1em auto;
-    padding: 0 1em;
+    margin: 0 auto 2em;
+    padding: 0 1.25em;
   }
 
   #player {

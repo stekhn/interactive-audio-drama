@@ -48,6 +48,8 @@ Die `options` beschreiben die Auswahlmöglichkeiten die der Benutzer hat, um in 
 
 - Überprüfen, ob die `id`s der weiterführenden Kapitel, welche mit `link` angegeben werden, auch existieren.
 - „Echte“ Audio-Visualisierung einbauen
+- Layout der Options-Buttons fixen
+- Bedienelemente des Audio-Players in echte Button-Elemente umwandeln
 
 ## Andere Beispiele
 

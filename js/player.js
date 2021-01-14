@@ -1,12 +1,15 @@
 'use strict';
 
+// Lade JavaScript erst, wenn die HTML-Seite vollständig geladen ist
 document.addEventListener('DOMContentLoaded', loadData, false);
 
+// Definiere die wichtigsten globales Variablen zur späteren Verwendung
 var storyData;
 var player;
 var wave;
 var elements = {};
 
+// Lade Story-Daten aus einer externen JSON-Datei
 function loadData() {
   // Load story data
   fetch('./js/story.json')
@@ -21,6 +24,7 @@ function loadData() {
 function setupPage(data) {
   storyData = data;
 
+  // Wähle die wichtigsten Elemente der Seite aus und speichere eine Referenz im Objekt-Elementen, um später einfacher darauf zugreifen zu können
   elements.startButton = document.querySelector('#start');
   elements.content = document.querySelector('#content');
   elements.player = document.querySelector('#player');
@@ -32,21 +36,15 @@ function setupPage(data) {
   elements.progressBar = document.querySelector('#player .progress-bar');
   elements.wave = document.querySelector('#player .wave');
 
-  elements.startButton.addEventListener('click', function () {
-    var introObject = storyData.filter(function (storyObject) {
-      return storyObject.id === 'intro';
-    })[0];
-    
-    elements.player.style.display = 'block';
-    setupWave();
-    updatePage(introObject);
-  }, false);
-
+  // Verknüpfe Elemente mit Aktion
+  elements.startButton.addEventListener('click', loadIntro, false);
   elements.playButton.addEventListener('click', startPlayer, false);
   elements.pauseButton.addEventListener('click', pausePlayer, false);
   elements.skipLeftButton.addEventListener('click', skipLeftPlayer, false);
   elements.skipRightButton.addEventListener('click', skipRightPlayer, false);
+  elements.progress.addEventListener('click', skipTo, false);
 
+  // Erlaube zusätzlich, dass die bestimmte Player-Buttons mit der Enter-Taster bedient werden können  
   elements.playButton.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) { startPlayer(); }
   }, false);
@@ -60,21 +58,36 @@ function setupPage(data) {
     if (event.keyCode === 13) { skipRightPlayer(); }
   }, false);
 
-  elements.progress.addEventListener('click', skipTo, false);
 }
 
+// Erste Ansicht „Intro“ laden
+function loadIntro() {
+  // Suche in den Story-Daten nach dem Kapitel mit der ID „intro“
+  var introObject = storyData.filter(function (storyObject) {
+    return storyObject.id === 'intro';
+  })[0];
+  
+  elements.player.style.display = 'block';
+  setupWave();
+  updatePage(introObject);
+}
+
+// Aktualisiere die Inhalte der Seite und den Audio-Player
 function updatePage(storyObject) {
   updateContent(storyObject);
   updatePlayer(storyObject);
 }
 
+// Aktualisiere Titel, Text und Optionen mit den Inhalten des jeweils ausgewählten Kapitels
 function updateContent(storyObject) {
   elements.content.innerHTML = '';
 
+  // Erstelle die Überschrift
   var h1 = document.createElement('h1');
   h1.textContent = storyObject.title;
   elements.content.appendChild(h1);
 
+  // Erstelle Text
   var p = document.createElement('p');
   p.textContent = storyObject.text;
   elements.content.appendChild(p);
@@ -83,6 +96,7 @@ function updateContent(storyObject) {
   optionsWrapper.className = 'options';
   elements.content.appendChild(optionsWrapper);
 
+  // Erstelle Buttons für die jeweils zur Auswahl stehenden Kapitel
   storyObject.options.forEach(function (option) {
     var optionButton = document.createElement('button');
     optionButton.textContent = option.description;
@@ -98,6 +112,7 @@ function updateContent(storyObject) {
   });
 }
 
+// Erstelle einen neuen Audio-Player, der die Audiospur (MP3) des jeweils ausgewählten Kapitels abspielt
 function updatePlayer(storyObject) {
   Howler.unload();
 

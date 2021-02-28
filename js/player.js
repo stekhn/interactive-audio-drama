@@ -83,15 +83,18 @@ function updateContent(storyObject) {
   elements.content.innerHTML = '';
 
   // Erstelle die Überschrift
-  var h1 = document.createElement('h1');
-  h1.textContent = storyObject.title;
-  elements.content.appendChild(h1);
+  var title = document.createElement('h1');
+  title.className = 'title';
+  title.textContent = storyObject.title || '';
+  elements.content.appendChild(title);
 
   // Erstelle Text
-  var p = document.createElement('p');
-  p.textContent = storyObject.text;
-  elements.content.appendChild(p);
+  var text = document.createElement('p');
+  text.className = 'text';
+  text.textContent = storyObject.text  || '';
+  elements.content.appendChild(text);
 
+  // Erstelle Verpackung für die Buttons
   var optionsWrapper = document.createElement('p');
   optionsWrapper.className = 'options';
   elements.content.appendChild(optionsWrapper);
@@ -110,6 +113,12 @@ function updateContent(storyObject) {
       updatePage(storyObject);
     });
   });
+
+  // Erstelle Untertitel
+  var caption = document.createElement('p');
+  caption.className = 'caption';
+  caption.textContent = storyObject.caption  || '';
+  elements.content.appendChild(caption);
 }
 
 // Erstelle einen neuen Audio-Player, der die Audiospur (MP3) des jeweils ausgewählten Kapitels abspielt
@@ -207,7 +216,7 @@ function setupWave() {
     width: window.innerWidth,
     height: window.innerHeight * 0.3,
     cover: true,
-    color: '#ffffff',
+    color: '#cccccc',
     speed: 0.03,
     amplitude: 0.7,
     frequency: 2

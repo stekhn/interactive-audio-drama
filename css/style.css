@@ -8,9 +8,6 @@ html {
 } 
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   margin: 0;
   background: black;
   color: white;
@@ -33,7 +30,6 @@ header .logo-wrapper a {
 
 header .logo-wrapper a:focus {
   outline: 0;
-  box-shadow: 0 3px 0 #F8FC4F;
 }
 
 header .logo {
@@ -49,17 +45,47 @@ header .slash {
 }
 
 article {
-  flex: 1 0 auto;
   width: 860px;
   margin: 2em auto;
   padding: 0 2em;
 }
 
+article:after {
+  display: block;
+  content: "";
+  height: 300px;
+}
+
 footer {
-  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
   text-align: center;
-  padding: 0 2em;
   line-height: 1.25;
+  padding-top: 2em;
+}
+
+footer::before {
+  display: block;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 2em;
+  pointer-events: none;
+  background: linear-gradient(transparent 0%, black 85%);
+}
+
+footer .background-wrapper {
+  background: black;
+  padding: 1.25em 0;
+}
+
+footer p {
+  margin: 1.25em;
 }
 
 button {
@@ -112,8 +138,9 @@ a:focus {
 
 #player {
   position: relative;
+  z-index: 1;
   text-align: center;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 #player .control {

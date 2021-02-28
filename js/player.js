@@ -216,27 +216,9 @@ function setupWave() {
     width: window.innerWidth,
     height: window.innerHeight * 0.3,
     cover: true,
-    color: '#cccccc',
-    speed: 0.03,
+    color: '#ffffff',
+    speed: 0.05,
     amplitude: 0.7,
     frequency: 2
   });
-
-  window.addEventListener('resize', updateWave);
-
-  updateWave();
 }
-
-function updateWave() {
-  var height = window.innerHeight * 0.3;
-  var width = window.innerWidth;
-
-  wave.height = height;
-  wave.height_2 = height / 2;
-  wave.MAX = wave.height_2 - 4;
-  wave.width = width;
-  wave.width_2 = width / 2;
-  wave.width_4 = width / 4;
-  wave.canvas.height = height;
-  wave.canvas.width = width;
-};

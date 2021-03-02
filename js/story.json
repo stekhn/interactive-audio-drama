@@ -1,54 +1,302 @@
 [
   {
-    "id": "intro",
+    "id": "Spawn",
     "title": "Intro",
-    "text": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, imperdiet a venenatis vitae justo. Nullam dictum felis eu pede mollis pretium.",
-    "caption": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien.",
-    "audio": "./mp3/sample.mp3",
+    "text": "Entscheide Dich.",
+    "caption": "(Leises panisches Atmen) Du öffnest deine Augen - Irgendetwas stimmt hier nicht, du siehst um dich herum nur dunkle Umrisse. Es riecht ganz verstaubt und modrig hier. Du tastest den Boden ab und spürst raue Holzbretter. Wo bist du nur? Es muss irgendein Raum sein, aber es ist einfach zu dunkel um etwas zu erkennen.\nWas ist nur passiert und wie bist du hierhergekommen? Du versuchst dich angestrengt zu erinnern aber du kannst es dir einfach nicht erklären. In deiner Jackentasche ertastest du eine kleine Schachtel. (Streichholzschachterascheln, Reißverschluss, Wetzen von Stoff, Anzünden)\nDas sind ja Streichhölzer! Du öffnest die Schachtel und zündest eins an. Dein erster Blick wandert in die Schachtel, nur fünf weitere Streichhölzer? Das wird nicht lange reichen. Bevor du dich überhaupt richtig umblicken kannst, geht das Licht wieder aus.\nVielleicht stellst du dich erstmal hin und versuchst es nochmal. Beschwingt von deinem klugen Einfall richtest du dich auf, schnellst nach oben und (Lautes Krachen) stößt dir den Kopf an der Decke. \nDas war verdammt laut! Wenigstens weißt du jetzt, dass du in einem Raum mit einer niedrigen Decke bist.\n Dein Kopf schmerzt – vielleicht solltest du dich erstmal wieder hinsetzen. Oder du bleibst stehen und versuchst dir so einen Überblick zu verschaffen. Entscheide Dich.\n",
+    "audio": "./mp3/Spawn.mp3",
     "options": [
       {
-        "link": "chapter-1",
-        "description": "Go to chapter 1"
+        "link": "DIALOGa",
+        "description": "Hinsetzen"
       },
       {
-        "link": "chapter-2",
-        "description": "Go to chapter 2"
+        "link": "DIALOGa",
+        "description": "Stehen bleiben"
       }
     ]
   },
   {
-    "id": "chapter-1",
-    "title": "Chapter 1",
-    "text": "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula porttitor eu consequat vitae, eleifend ac enim.",
-    "audio": "./mp3/sample.mp3",
+    "id": "DIALOGa",
+    "title": "DIALOGa",
+    "text": "Entscheide dich schnell: Entzündest du die Öllampe oder öffnest du das Rollo?",
+    "caption": "Mann: „Was war das für ein Lärm? Emmy, bist du das? (kurze Pause) Emmy? (lauter und energischer gerufen)“ Schritte, Frau geht eine kleine Stiege hinunter, von wo aus der Mann sie gerufen hat\nEmmy: “Was meinst du?”\nMann: „Ah, da bist du. Hast du nicht auch diesen Lärm von oben gehört? Ich dachte, das warst  du?“\nFrau: „Mhm, nein ist mir gar nicht aufgefallen. Wahrscheinlich war ich mal wieder zu sehr in mein Stück vertieft. Ich habe noch Text gelernt. Du weißt …“\nMann: (er unterbricht sie) „Ja, ja, ich weiß dann bekommst du von der Außenwelt nichts mehr mit. (lacht) Naja, vielleicht ist ja nur auf dem Dachboden etwas umgefallen. Ich werde später nachsehen.”\nFrau: “Aber verlier’ Dich nicht in dem ganzen Gerümpel. Du musst doch später auch noch zur Stellprobe, nicht wahr?\nMann: „Ja doch. (Pause) Ich will endlich mal wieder auf die Bühne. Ich kann die Probenräume nicht mehr sehen.”  \nFrau: „(lacht) Wie wahr. (sehnsuchtsvolles Seufzen) Das geht mir ähnlich. Aber was ist das für ein Publikum geworden, für das wir da spielen? Wünschst du dir auch manchmal es wäre noch so wie früher?“\nMann: (sehr leise und nachdenklich:) „Ja, jeden Tag.“\nWer redet da? fragst du dich und durchforstest dein Gehirn nach Verbindungen zu dem Namen Emmy. Aber Du kennst keine Emmy. Du musst herausfinden, wo Du bist. Deswegen konzentrierst du dich wieder auf deine Umgebung. Du streichst dir nochmal über den Kopf, an der Stelle wo du dich vorher angehauen hast, und bemerkst eine leichte Beule. Dann erinnerst du dich an die Streichhölzer und holst sie nochmal aus deiner Jackentasche. Mit leisem Rascheln öffnest du die Schachtel und holst ein Streichholz heraus. (Rascheln) Du atmest konzentriert durch und entzündest es mit einer raschen Handbewegung (Feuer-Zischen). Durch den Schein des Streichholzes erkennst du die Dachschräge neben dir, an der du dich angehauen hast. Dann wandert dein Blick weiter in den dunklen Raum und du erkennst, dass es sich wohl um einen Dachboden handeln muss. Es liegen viele Sachen um dich herum. Allerdings sind davon nur eine Öllampe und der Zugmechanismus eines Rollos in unmittelbarer Nähe. \nWährend du dich kurz umschaust, spürst du schon die Hitze an deinem Finger von dem fast abgebrannten Streichholz. Es wird gleich ausgehen und du hast nur noch genug Zeit, um einen der beiden Gegenstände zu erreichen, bevor es wieder dunkel wird. Entscheide dich schnell: Entzündest du die Öllampe oder öffnest du das Rollo?\n",
+    "audio": "./mp3/DIALOGa.mp3",
     "options": [
       {
-        "link": "chapter-2",
-        "description": "Go to chapter 2"
+        "link": "Oellampe",
+        "description": "Öllampe"
       },
       {
-        "link": "end",
-        "description": "Go to end"
+        "link": "Rolladen",
+        "description": "Rolladen"
       }
     ]
   },
   {
-    "id": "chapter-2",
-    "title": "Chapter 2",
-    "text": "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.",
-    "audio": "./mp3/sample.mp3",
+    "id": "Oellampe",
+    "title": "Öllampe",
+    "text": "Du musst dich entscheiden: Rufst du weiter um Hilfe oder verstummst du?",
+    "caption": "Du greifst nach der angerosteten Öllampe, die auf dem Boden in deiner Nähe steht. Du hast Glück, es ist noch Öl darin. Mit den letzten Flammen deines Streichholzes schaffst du es gerade so die Lampe anzuzünden. Der Raum, in dem du dich befindest, wird durch ein warmes, flackerndes Licht erhellt.\nDer Dachboden besteht aus einem einzigen langgezogenen Raum. Die Dielen unter deinen Füßen und die Holzbalken, die über deinem Kopf zu einem spitzen Dach zusammenlaufen, sind wurmstichig. Zwischen den Balken spannen sich Spinnweben, schwer unter dem Staub vieler Jahre. Du bewegst dich vorsichtig über den morschen Holzboden, der unter deinen Füßen leise knarzt. Eine Tür kannst du nirgends ausmachen. Etwas weiches streift deinen Knöchel. Erschrocken stolperst du rückwärts. Im Licht erkennst du ein Haarbüschel. Es ist eine alte Perücke. Die künstlichen Locken kleben aneinander und sind gräulich von Staub und Dreck. Im Zimmer verteilt liegen und hängen mehrere Perücken. An einer Wand steht eine Kleiderstange, an der merkwürdige Kleider, Mäntel und Hosen hängen. Eine Brokatweste, ein Kleid mit großem Reifrock, ein Umhang mit steifem Kragen. Deine Finger gleiten über die bunten, bestickten Stoffe und bleiben an Mottenlöchern hängen.  Das alles wirkt wie aus der Zeit gefallen. Du schaust dich weiter nach einem Ausgang um. Nichts. Ein beklemmendes Gefühl überkommt dich. Dein Blick fällt nach links auf eine merkwürdige Vertiefung im Boden. Ein eiserner Griff ist in der Mitte der Holzbretter angebracht. Der Ausgang. Erleichtert gehst du dorthin und ziehst erst vorsichtig, dann immer stärker am Griff. Die Tür bewegt sich nicht. Du wirst unruhiger, rüttelst fester am Griff und versuchst vergeblich die Tür zu öffnen. Panisch beginnst du gegen die Bretter zu hämmern und um Hilfe zu rufen. \nMann: „Emmy?! , Bist du noch bei Trost? Jetzt sei doch nicht so laut, du störst das ganze Haus auf! (leiser) Der Vermieter hat uns eh im Visier nach der Aktion von Falckenberg damals!“\nFrau: “Schhhhhh... Sei still, ich bin das nicht. Da ist jemand auf dem Dachboden!”\nDie beiden Stimmen, die du hörst, klingen alarmiert. Du bist dir nicht sicher, ob die Leute dir nicht vielleicht etwas tun könnten. Willst Du wirklich weiter an der Falltür rütteln oder willst Du Dir einen anderen Weg suchen?\nDu musst dich entscheiden: Rufst du weiter um Hilfe oder verstummst du?\n",
+    "audio": "./mp3/Oellampe.mp3",
     "options": [
       {
-        "link": "end",
-        "description": "Go to end"
+        "link": "Hilferuf",
+        "description": "Um Hilfe rufen"
+      },
+      {
+        "link": "Verstummen",
+        "description": "Still werden"
       }
     ]
   },
   {
-    "id": "end",
-    "title": "End",
-    "text": "Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.",
-    "audio": "./mp3/sample.mp3",
-    "options": []
+    "id": "Rolladen",
+    "title": "Rolladen",
+    "text": "Du musst dich entscheiden: Rufst du weiter um Hilfe oder verstummst du?",
+    "caption": "Im letzten Leuchten deines Streichholzes erreichst du das Fenster, das von einem Rollladen verdunkelt ist. In der Dunkelheit ertastest du den Gurt. Du ziehst daran und mit einem lauten Quietschen öffnen sich die Lamellen. Staub wirbelt auf und kitzelt dir in der Nase (husten und niesen). Anscheinend wurde der Rollladen seit einer Weile nicht geöffnet. Durch die Schlitze dringt gleißendes Sonnenlicht. Geblendet drehst du dich um und blinzelnd siehst du nun den Raum, in dem du dich befindest.\nDer Dachboden besteht aus einem einzigen langgezogenen Raum. Die Dielen unter deinen Füßen und die Holzbalken, die über deinem Kopf zu einem spitzen Dach zusammenlaufen, sind wurmstichig. Zwischen den Balken spannen sich Spinnweben, schwer unter dem Staub vieler Jahre. Du bewegst dich vorsichtig über den morschen Holzboden, der unter deinen Füßen leise knarzt. Eine Tür kannst du nirgends ausmachen. Etwas weiches streift deinen Knöchel. Erschrocken stolperst du rückwärts. Im Licht erkennst du ein Haarbüschel. Es ist eine alte Perücke. Die künstlichen Locken kleben aneinander und sind gräulich von Staub und Dreck. Im Zimmer verteilt liegen und hängen mehrere Perücken. An einer Wand steht eine Kleiderstange, an der merkwürdige Kleider, Mäntel und Hosen hängen. Eine Brokatweste, ein Kleid mit großem Reifrock, ein Umhang mit steifem Kragen. Deine Finger gleiten über die bunten, bestickten Stoffe und bleiben an Mottenlöchern hängen.  Das alles wirkt wie aus der Zeit gefallen. Du schaust dich weiter nach einem Ausgang um. Nichts. Ein beklemmendes Gefühl überkommt dich. Dein Blick fällt nach links auf eine merkwürdige Vertiefung im Boden. Ein eiserner Griff ist in der Mitte der Holzbretter angebracht. Der Ausgang. Erleichtert gehst du dorthin und ziehst erst vorsichtig, dann immer stärker am Griff. Die Tür bewegt sich nicht. Du wirst unruhiger, rüttelst fester am Griff und versuchst vergeblich die Tür zu öffnen. Panisch beginnst du gegen die Bretter zu hämmern und um Hilfe zu rufen. \nMann: „Emmy?! , Bist du noch bei Trost? Jetzt sei doch nicht so laut, du störst das ganze Haus auf! (leiser) Der Vermieter hat uns eh im Visier nach der Aktion von Falckenberg damals!“\nFrau: “Schhhhhh... Sei still, ich bin das nicht. Da ist jemand auf dem Dachboden!”\nDie beiden Stimmen, die du hörst, klingen alarmiert. Du bist dir nicht sicher, ob die Leute dir nicht vielleicht etwas tun könnten. Willst Du wirklich weiter an der Falltür rütteln oder willst Du Dir einen anderen Weg suchen?\nDu musst dich entscheiden: Rufst du weiter um Hilfe oder verstummst du?\n",
+    "audio": "./mp3/Rolladen.mp3",
+    "options": [
+      {
+        "link": "Hilferuf",
+        "description": "Um Hilfe rufen"
+      },
+      {
+        "link": "Verstummen",
+        "description": "Still werden"
+      }
+    ]
+  },
+  {
+    "id": "Verstummen",
+    "title": "Verstummen",
+    "text": "Das war wohl die falsche Entscheidung...",
+    "caption": "Dein Blick fällt auf das Fenster, an dem der Rollladen festgemacht ist. Möglicherweise kannst du dadurch entkommen. Leise gehst du zum Fenster (dumpfe schritte )\nund rüttelst etwas am Rollladen. Rollladengeräusche\nDu schaffst es, ihn gerade so weit nach oben zu drücken, dass du durch das Fenster schlüpfen kannst. Die Sonne scheint hell und freundlich durch die Öffnung.  Eilig zwängst du dich durch das Fenster Rollladengeräusche, stöhnen?\nEND (Dialog C): Erzählerin, Prota (Tobi)\nDu bist geblendet von der hellen Sonne. Aber du fühlst bereits wie steil das Dach sein muss. Vorsichtig ziehst du deine Füße nach vorne und suchst nach Halt. \nStraßengetümmel, Gelaber\nUnter dir hörst du eine belebte Menge an Menschen auf der Straße, aber du wagst es nicht einen Blick hinunterzuwerfen.\nEs sieht so aus, als gäbe es am Ende des Daches eine Möglichkeit hinunterzukommen! Deine Hände tasten sich oben an den Dachziegeln entlang und Schritt um Schritt kommst du deinem Ziel näher. Mittlerweile haben sich deine Augen etwas an die Sonne gewöhnt, du erkennst klassizistische Gebäude auf der Gegenseite und irgendwie kommen sie dir merkwürdig bekannt vor. Wo bist du hier nur? Du hörst ein Bimmeln auf der Straße, dein Blick fällt nach unten, eine Tram?  \nGeräusche die wie eine alte Tram klingen.\nAls du nach unten blickst fällt dir noch etwas ins Auge… Die ganze Häuserfront ist von roten Bannern gesäumt… und am unteren Ende der Banner... Dein Magen verkrampft sich. Hakenkreuze. \nEin plötzlicher Ruck geht durch deinen Arm. Der Dachziegel, an dem du dich festgehalten hast, löst sich., panisch greifst du nach allen Seiten und versuchst noch einmal Halt zu finden aber: Rutschendes Geräusch, Luftgeräusche...",
+    "audio": "./mp3/Verstummen.mp3",
+    "options": [
+      {
+        "link": "HIER BITTE DEN RETRY BUTTON EINFÜGEN",
+        "description": "Erneut Versuchen"
+      }
+    ]
+  },
+  {
+    "id": "Hilferuf",
+    "title": "Hilferuf",
+    "text": "Schnell entscheide dich! Nimmst du die Waffe an dich, oder versteckst du dich hinter dem Vorhang?",
+    "caption": "Das klingt nicht gut. Du hämmerst noch lauter gegen die Bretter. Du willst endlich raus. Warum bewegt sich diese Tür nicht um einen Zentimeter?\nMann: „Emmy, schnell, ich glaub wir haben eine „Ratte“ auf dem Dachboden - die “Pistole”!“\nFrau (flüsternd): \"Nein, bleib hier. Wenn sie dort jemanden eingeschleust haben, dann doch sicher wegen mir. Ich gehe nachsehen!\"\nSchritte, dann Geräusche als würde jemand eine Holzleiter hochsteigen\nPistole? Das wird ja immer schlimmer. Was ist das für ein Haushalt? Du entfernst dich schnell ein paar Schritte von den Brettern und siehst dich um. In der Mitte des Raumes auf einer kleinen Kiste siehst du etwas metallisches im Licht glänzen. Ist das die Pistole, von der der Mann gesprochen hat? \nDoch noch etwas anderes fällt dir ins Auge. Am anderen Ende des Raumes ist ein großer Vorhang hinter dem du dich verstecken könntest.\nSchnell entscheide dich! Nimmst du die Waffe an dich, oder versteckst du dich hinter dem Vorhang?\n",
+    "audio": "./mp3/Hilferuf.mp3",
+    "options": [
+      {
+        "link": "Pistole",
+        "description": "Zur Pistole greifen"
+      },
+      {
+        "link": "Vorhang",
+        "description": "Im Vorhang verstecken"
+      }
+    ]
+  },
+  {
+    "id": "Pistole",
+    "title": "Pistole",
+    "text": "Sie ruft nach Dir. Antwortest du oder bleibst du still?",
+    "caption": "Du hörst Dein Herz in den Ohren pochen. Dein Hals wird trocken. Langsam greifst du zur Pistole. (Protagonistin atmet laut und hektisch - Geklapper der Pistole. Mit beiden Händen hältst du sie so fest wie du kannst, aber Deine Hände zittern so heftig, dass sie dir fast zu Boden fällt. Plötzlich hörst du wieder diese Frauenstimme rufen.\nFrau (verunsichert): „Hallo?! Ist da oben jemand?“ \nSie ruft nach Dir. Antwortest du oder bleibst du still?",
+    "audio": "./mp3/Pistole.mp3",
+    "options": [
+      {
+        "link": "Antworten",
+        "description": "Antworten"
+      },
+      {
+        "link": "Stille",
+        "description": "Still bleiben"
+      }
+    ]
+  },
+  {
+    "id": "Antworten",
+    "title": "Antworten",
+    "text": "Du beschließt also ihr die Wahrheit zu sagen.",
+    "caption": "Du beschließt also ihr die Wahrheit zu sagen. Stammelnd rufst du, dass Du nicht weißt, wo Du bist oder wie Du hierher gekommen bist. Du versuchst zu erklären, dass Du im Dachboden gefangen bist. Du beteuerst, dass es dir leidtut. Ob sie Dir glauben wird?\nFrau: “Wer sind Sie? (zögert einen Augenblick) Wollen Sie nicht vielleicht runterkommen, damit wir miteinander sprechen können?“\nDu hörst wie von unten ein schwerer Riegel zurückgeschoben wird. Du legst die Pistole neben dir auf den Boden und gehst zögerlich zu der Falltür. Du ziehst noch einmal an dem Metallgriff und plötzlich lässt sich die Falltür mit einem kleinen Ächzen doch ganz leicht öffnen. Unter dir siehst du eine morsche Holzleiter, die hinab in einen Flur führt. Du rufst der unbekannten Frauenstimme zu, dass du jetzt herunterkommst. Langsam lässt du dich die Sprossen herab. Unten angekommen wischt du dir etwas Staub vom Gesicht und drehst dich um. Vor dir steht eine schmale Frau mit dunklen, gelockten Haaren. Ihr Gesicht zeigt erste Spuren von Alter und Erschöpfung, du schätzt sie ungefähr auf Mitte 40. Du streckst deine Hand aus und stellst dich ihr vor. Ihr Gesichtsausdruck vermittelt Vorsicht, aber ihre Augen wirken freundlich.\n",
+    "audio": "./mp3/Antworten.mp3",
+    "options": [
+      {
+        "link": "TRUEEND",
+        "description": "Wer bist du?"
+      }
+    ]
+  },
+  {
+    "id": "Stille",
+    "title": "Stille",
+    "text": "Du könntest Versuchen dir gewaltsam den Weg durch die Falltür zu bahnen, oder gibst du sicherheitshalber einen Warnschuss ab?",
+    "caption": "Du bleibst still. Ganz leise. Aber du legst dein Ohr an den kalten Dielenboden. Schließlich interessiert es dich, was passiert. Trotzdem spürst du immer noch die Angst – werden dir die Leute etwas tun? Was für Menschen sind das, die so viele Verkleidungen auf ihrem Dachboden lagern? Und außerdem weißt du noch immer nicht, wo du bist. Nicht einmal, WANN du bist! Du lauschst aufgeregt. In deiner Hand hältst du immer noch die Pistole. Dein Herz klopft immer lauter, was sollst du jetzt tun? \nDu könntest versuchen dir gewaltsam den Weg durch die Falltür zu bahnen, oder gibst du sicherheitshalber einen Warnschuss ab?",
+    "audio": "./mp3/Stille.mp3",
+    "options": [
+      {
+        "link": "Falltuer",
+        "description": "Die Pistole weglegen"
+      },
+      {
+        "link": "Warnschuss",
+        "description": "Einen Warnschuss abgegeben"
+      }
+    ]
+  },
+  {
+    "id": "Falltuer",
+    "title": "Falltür",
+    "text": "Du legst die Waffe ab.",
+    "caption": "Du legst die Pistole neben dir auf den Boden und gehst zögerlich zu der Falltür. Du ziehst noch einmal an dem Metallgriff und Plötzlich lässt sich die Falltür mit einem kleinen Ächzen doch ganz leicht öffnen. Unter dir siehst du eine morsche Holzleiter, die hinab in einen Flur führt. Du rufst der unbekannten Frauenstimme zu, dass du jetzt herunterkommst. Langsam lässt du dich die Sprossen herab. Unten angekommen wischt du dir etwas Staub vom Gesicht und drehst dich um. Vor dir steht eine schmale Frau mit dunklen, gelockten Haaren. Ihr Gesicht zeigt erste Spuren von Alter und Erschöpfung, du schätzt sie ungefähr auf Mitte 40. Du streckst deine Hand aus und stellst dich ihr vor. Ihr Gesichtsausdruck vermittelt Vorsicht, aber ihre Augen wirken freundlich.",
+    "audio": "./mp3/Falltuer.mp3",
+    "options": [
+      {
+        "link": "TRUEEND",
+        "description": "Wer bist du?"
+      }
+    ]
+  },
+  {
+    "id": "Warnschuss",
+    "title": "Warnschuss",
+    "text": "Das war wohl die falsche Entscheidung...",
+    "caption": "Du rufst der Frau zu, dass sie zurückbleiben soll, schließlich könnte es gefährlich werden. Deine Hand ist ganz nass vor Schweiß, als sich deine Finger fester um den Griff legen. Hattest du überhaupt schon einmal eine echte Waffe in der Hand? Weißt du, was du hier gerade tust? Du schluckst, dein Herz klopft immer lauter. Aber gut: Es ist bloß ein Warnschuss. Was soll da schon schiefgehen? Du richtest die Waffe in deiner Hand nach oben in Richtung Decke und legst den Finger an den Abzug du zählst in deinem Kopf herunter: 3,2,1 - ... Was war das? Dein Körper zuckt, alles passiert auf einmal! Der Knall ist viel lauter als du erwartet hast. War die Pistole falsch geladen? Pass auf, der Lauf explodiert! Du spürst wie ein gleißender Schmerz deinen Körper durchzuckt. Du fällst auf den Dielenboden und der Schmerz nimmt dir dein ganzes Bewusstsein. Hallo?? hörst du mich noch?? Sag doch was… hallo? (Stimme der Erzählerin fadet aus, hoher klingelnder Ton setzt ein und bricht mit Ende des Audios abrupt ab.)\n",
+    "audio": "./mp3/Warnschuss.mp3",
+    "options": [
+      {
+        "link": "HIER BITTE DEN RETRY BUTTON EINFÜGEN",
+        "description": "Erneut Versuchen"
+      }
+    ]
+  },
+  {
+    "id": "Vorhang",
+    "title": "Vorhang",
+    "text": "Bleibst du weiterhin still oder bittest du sie dir nicht weh zu tun?",
+    "caption": "Du verhältst dich mucksmäuschenstill. Doch wegen der vielen Staubteilchen merkst du schon wie es dich in der Nase juckt. Du ziehst deine Nase kraus damit du nicht niesen musst. Du weißt, wenn du jetzt niest, hast du dich verraten. Erleichtert atmest du auf als das Jucken aufhört. Doch kaum hast du dich entspannt, wirst du von einem lauten Niesen überfallen (Niesgeräusch). Du hoffst, dass man es unten nicht gehört hat, obwohl du eigentlich schon weißt, dass es unmöglich ist. Du lauschst konzentriert, ob von unten irgendeine Reaktion kommt. Gerade als du denkst, du kannst dich wieder entspannen, hörst du von unten eine laute Stimme:\nFrau (verärgert rufend): „Was sollen die Mätzchen? Wir haben Sie längst gehört! Ich komme jetzt hoch. Zeigen Sie sich!“\nDu hörst wie die Falltür sich öffnet und siehst dann den Umriss einer Person mit Pistole aus der Öffnung im Boden steigen. Vor lauter Angst hältst du die Luft an und kneifst die Augen zu. Du überlegst, wie du dich jetzt am besten verhalten sollst.\nEntscheide dich: Bleibst du weiterhin still oder bittest du sie dir nicht weh zu tun?",
+    "audio": "./mp3/Vorhang.mp3",
+    "options": [
+      {
+        "link": "Schweigen",
+        "description": "Weiterhin schweigen"
+      },
+      {
+        "link": "Bitten",
+        "description": "Bitte tu mir nicht weh!"
+      }
+    ]
+  },
+  {
+    "id": "Schweigen",
+    "title": "Schweigen",
+    "text": "Entscheide dich: Versteckst du dich noch weiter im Stoff des Vorhangs und versuchst dich so klein wie möglich zu machen oder kommst du hinter dem Vorhang hervor, um auf die Person zu zulaufen?",
+    "caption": "Du hörst wie die Frau sich langsam im Raum umsieht. Noch hat sie dich nicht entdeckt. Der Staub kitzelt dir immer noch in der Nase. Jetzt darfst Du wirklich nicht mehr niesen. Die Frau bewegt sich vorsichtig in die andere Ecke des Raumes. Langsam, ganz langsam ziehst Du den Vorhang nur wenige Zentimeter zur Seite, um zu sehen was passiert. Die Frau steht mit dem Rücken zu Dir. Sie scheint einen massiven Schrank im Visier zu haben. Dir fällt ihre Kleidung auf. Nicht unelegant, aber Du hast noch nie jemanden gesehen, der soetwas heutzutage noch trägt: Ihre Bluse hat eindeutig Schulterpolster, ihre Frisur ist aufwendig gelockt und der taillierte Rock ist ein wenig zu nah an den Beinen geschnitten, um bequem zu sein. Du siehst, wie die Frau lautlos ihre Hand ausstreckt, um die Schranktür aufzureißen. Als sie erkennt, dass sich niemand in dem Schrank versteckt, beginnt sie sich umzudrehen. Schnell lässt Du den Vorhang wieder vor Dein Gesicht fallen und trittst einen winzigen Schritt zurück - Dein Schuh ist gegen etwas metallisches gestoßen. Der Lärm lässt Dein Herz fast stillstehen.\nFrau (verärgert): (energische Schritte) „Wer auch immer Sie sind! kommen Sie sofort heraus. Geben Sie sich zu erkennen. Ich will auf der Stelle erfahren, was Sie auf meinem Dachboden suchen! Und ich warne Sie, ich bin bewaffnet! Also versuchen Sie keine Spielchen!”\nJetzt sitzt Du endgültig in der Falle.\nEntscheide dich: Versteckst du dich noch weiter im Stoff des Vorhangs und versuchst dich so klein wie möglich zu machen oder kommst du hinter dem Vorhang hervor, um auf die Person zu zulaufen?\n",
+    "audio": "./mp3/Schweigen.mp3",
+    "options": [
+      {
+        "link": "Totenstille",
+        "description": "Du machst dich winzig"
+      },
+      {
+        "link": "Heraustreten",
+        "description": "Auf die Frau zulaufen"
+      }
+    ]
+  },
+  {
+    "id": "Totenstille",
+    "title": "Totenstille",
+    "text": "Du bleibst hinter dem Vorhang.",
+    "caption": "Du bleibst hinter dem Vorhang. Die Frau kann nur vermuten, wo Du bist. Jetzt nur nicht atmen!\nDu hörst wie die Frau näherkommt. Wenige Schritte vor deinem Versteck bleibt sie stehen. Sie stößt einen erschrockenen Laut aus.\n (Schrittgeräusche; erschrockener Laut)\n\n",
+    "audio": "./mp3/Totenstille.mp3",
+    "options": [
+      {
+        "link": "End3",
+        "description": "Was passiert?"
+      }
+    ]
+  },
+  {
+    "id": "Heraustreten",
+    "title": "Heraustreten",
+    "text": "Zögerlich und mit zitternden Fingern ziehst Du den Vorhang zur Seite.",
+    "caption": "Zögerlich und mit zitternden Fingern ziehst Du den Vorhang zur Seite. Du nimmst Deinen ganzen Mut zusammen und gehst auf sie zu. Die Frau weicht erschrocken einen Schritt zurück. Furcht zeichnet sich deutlich auf ihrem Gesicht ab.",
+    "audio": "./mp3/Heraustreten.mp3",
+    "options": [
+      {
+        "link": "End3",
+        "description": "Was passiert?"
+      }
+    ]
+  },
+  {
+    "id": "End3",
+    "title": "Heraustreten",
+    "text": "Das war wohl die falsche Entscheidung...",
+    "caption": "Frau (ängstlich aber bestimmt): „Halt, bleiben Sie zurück! Mit welchem Recht sind Sie hier? Sie haben keinen Grund mich festzunehmen! Ich gehe nicht ins Gefängnis!  \nErzählerin: Du gehst vorsichtig einen Schritt weiter auf sie zu und setzt an, dich zu erklären, da macht die Frau hastig auf dem Absatz kehrt, rennt zurück zur Leiter und   poltert die Stufen nach unten. Dabei hörst du sie plötzlich rufen:\nFrau (panisch):  Sie wollen mich festnehmen! Wir müssen hier weg!\nDer Mann, den du vorhin schon einmal gehört hast, antwortet flüsternd:\nMann: (presst die Worte regelrecht hervor): „Nein, warte – gib mir die Pistole! Ich mach das schon!“) (Geräusch einer Pistole, die entsichert wird)\nPistole?! Dir wird schlagartig schlecht, dein Puls rauscht dir in den Ohren. Du sprichst ein letztes Stoßgebet. Dann schließt du die Augen. Alles um dich wird schwarz.\n",
+    "audio": "./mp3/End3.mp3",
+    "options": [
+      {
+        "link": "HIER BITTE DEN RETRY BUTTON EINFÜGEN",
+        "description": "Erneut Versuchen"
+      }
+    ]
+  },
+  {
+    "id": "Bitten",
+    "title": "Bitten",
+    "text": "Was wirst du trinken?",
+    "caption": "Frau (nervös und laut): Wer ist da? Was tun Sie hier?\nDu atmest schwer. Dein Herz pocht. Du hast immer noch Angst, auch wenn die Stimme nicht besonders feindselig klingt. Du stöhnst.\nFrau (ruhiger und selbstsicherer): Na gut, ein Parteibruder oder eine Parteischwester sind Sie schon einmal nicht. Die sind nicht so schüchtern und verstecken sich hinter Gardinen. \nERZÄHLERIN: Du atmest erleichtert aus. \nFrau (fast zärtlich): Nun gut, kommen Sie heraus. Ich nehme auch die Waffe herunter, hier.\nDurch den Vorhang siehst du den Schatten einer schmalen Frau, die ihren Arm senkt. Fass dir ein Herz! Verlass Dein Versteck! Sie wird dir nichts tun.\nFrau (mit dem Anflug eines Lächelns, dennoch dringlich): Na, also. Nun heraus mit der Sprache: Was tun Sie auf meinem Dachboden?\nDeine Augen müssen sich erneut an das Licht gewöhnen. Durch den herumflirrenden Staub siehst du eine Frau mittleren Alters. Sie ist nicht besonders groß. Dir fällt ihre Kleidung auf. Nicht unelegant, aber Du hast noch nie jemanden gesehen, der soetwas heutzutage noch trägt. Ihr braunes Haar ist schon von grauen Strähnen durchzogen. Du findest keine Antwort auf ihre Frage.\nFrau: Ich bin Emilie.  Sie... Du kannst mich Emmy nennen. Falls Du Dich entscheidest, mit mir zu sprechen. So, und jetzt du. Wie ist dein Name?\nDu weißt es immer noch nicht. Wieso weißt du es nicht? Deine Ratlosigkeit weicht einer aufkommenden Angst. Vielleicht Amnesie? Du zupfst an deiner Kleidung herum und kratzt dich am Kopf. Emmy macht einen Schritt auf dich zu und breitet die Arme aus. \nEMMY: Vielleicht hilft ein Getränk? Unten im Wohnzimmer? Hier auf dem Speicher kann man sich ja nicht anständig unterhalten. \nDu nickst und machst selber einen schüchternen Schritt nach vorn. Emmy lächelt dir zu und dreht sich mit einem Winken um. Du folgst ihr, an den sonderbaren Kostümen und Perücken vorbei. Dein Blick streift die Pistole in ihrer Hand und du bleibst wie angewurzelt stehen. Emmy sieht deinen Blick und lächelt etwas schuldbewusst.\nEMMY: Die ist nicht echt. Das ist nur eine Theaterattrappe. Sei unbesorgt.\nErleichtert folgst du ihr zur Falltür, und gehst hinter Emmy die Treppe herunter.\nEMMY: Da, du kannst dich auf das Sofa setzen, schau her. Was magst du trinken? Tee? Schwarz? Oder lieber etwas Frisches? Wir haben Limonade, mit Himbeeren aus dem Garten meiner Schwester! \nEmmy sieht dich erwartungsvoll mit großen Augen an.  Links geht es in die Küche, wo der Teekessel schon pfeift.\nWas willst du trinken? Entscheide dich: Schwarzen Tee oder Himbeerlimonade?",
+    "audio": "./mp3/Bitten.mp3",
+    "options": [
+      {
+        "link": "SchwarzerTee",
+        "description": "Du möchtest Schwarzen Tee"
+      },
+      {
+        "link": "Himbeerlimonade",
+        "description": "Himbeerlimonade, das wär es jetzt"
+      }
+    ]
+  },
+  {
+    "id": "SchwarzerTee",
+    "title": "Schwarzer Tee",
+    "text": "Wer bist du?",
+    "caption": "Emmy kommt mit einem Tablett aus der Küche. Darauf stehen zwei leere Tassen, ein Schälchen Kandiszucker und eine dampfende Kanne Tee. Sie stellt das Tablett klackernd vor dir auf den Wohnzimmertisch, nimmt die Kanne und gießt den Tee in die Tassen.\nEMMY: Vorsicht, ist noch heiß. \nWährend du vorsichtig deinen ersten Schluck nimmst, beginnt Emmy zu erzählen.",
+    "audio": "./mp3/SchwarzerTee.mp3",
+    "options": [
+      {
+        "link": "TRUEEND",
+        "description": "Wer bist du?"
+      }
+    ]
+  },
+  {
+    "id": "Himbeerlimonade",
+    "title": "Himbeelimonade",
+    "text": "Das war wohl die falsche Entscheidung...",
+    "caption": "Emmy kommt mit einem Tablett aus der Küche. Darauf stehen zwei hohe Kristallgläser, befüllt mit einer wunderbar rosa Flüssigkeit. Sie stellt das Tablett klackernd vor dir auf den Wohnzimmertisch und schiebt dir eines der Gläser hinüber. \nEMMY: Der Sommer im Glas, probier nur!\nERZÄHLERIN: Während du deinen ersten Schluck nimmst, beginnt Emmy zu erzählen.",
+    "audio": "./mp3/Himbeerlimonade.mp3",
+    "options": [
+      {
+        "link": "TRUEEND",
+        "description": "Wer bist du?"
+      }
+    ]
+  },
+  {
+    "id": "TRUEEND",
+    "title": "Wahres Ende",
+    "text": "Wer war Emmy Rowohlt?",
+    "caption": "Ich bin Emelie Rowohlt, aber seit ich klein bin, nennen mich alle Emmy. Es tut mir leid, dass wir am Anfang so misstrauisch waren, aber man kann heutzutage nie vorsichtig genug sein. Diese hirnlosen Handlanger der NSDAP sind in der ganzen Stadt unterwegs, und seit diesem Heimtückegesetz von letztem Jahr werden immer mehr Menschen verhaftet. verschwinden einfach. Die Nazis versuchen alle Menschen, die auch nur einen freien Gedanken haben, auch nur ein Wort gegen sie richten, mundtot zu machen. (lacht bitter) (murmelt) Aber von denen lasse ich mir gar nichts sagen. \nTrotzdem muss ich zugeben, dass diese diktatorischen Maßnahmen Wirkung zeigen. Immer mehr fangen an zu folgen, still zu werden. Kritisch zu sein ist lebensgefährlich geworden. (seufzt) Manchmal frage ich mich ob es das Richtige war zurückzukommen. Ich bin erst seit kurzem wieder in München, weißt du. Ein Engagement an den Kammerspielen hat mich hierhergebracht.\nAber auch das Theater hat sich verändert. Kurz nach Machtergreifung mussten einige der vielleicht besten Schauspieler (und Schauspielerinnen?) fliehen. Therese Giehse, Kurt Horwitz, Sybille Schloß. Die übrigen um unseren Intendanten Otto Falckenberg sind hier geblieben. Am Anfang hat er noch versucht sich zu wehren, aber inzwischen will Falckenberg so weitermachen, als sei gar nichts passiert. (bitter) Als wären wir noch irgendwie frei. Dabei wird jeder Spielplan, jede Bewegung beobachtet und geprüft von Rainer Schlösser, der sich „Reichsdramaturg“ nennt. Dramaturg, dass ich nicht lache. Nur eine Marionette von denen da oben ist der. Und Falckenberg auch. Nicht mal der traut sich noch was zu sagen, sondern folgt ganz still und leise.\n\nAber wahrscheinlich werde ich doch bleiben. Es gibt nichts als das Theater für mich. (träumerisch) Ich weiß noch als ich das erste mal „Die rote Robe“ von Eugène Brieux gesehen habe. Danach war mir klar: Ich werde Schauspielerin. \nDas war alles andere als einfach. Mein Vater wollte unbedingt, dass ich Lehrerin werde. (äfft Stimme nach) „Was Anständiges sollst du machen, und aufhören mit diesen Träumereien.“ (lacht) Aber Gehorsam war nie meine Stärke. In Berlin hab ich das Lehrerinnenseminar besucht, aber nur um auf die Schauspielschule zu gehen. Da habe ich eine Weile gespielt, danach in Leipzig und München. Geheiratet habe ich auch, Ernst Rowohlt, den Verleger, aber lange hat das nicht gehalten. Vor ein paar Jahren, 1922, hat es mich dann nach Italien und Frankreich gezogen. Bis der Brief der Kammerspiele kam. Jetzt bin ich wieder hier.\nIch weiß nicht, wie lange das noch so weitergehen kann. Wie lange ich noch durchhalte. Ich werde nicht still ertragen, was der sog. „Führer“ und die NSDAP mit dem Land tut, mit den Menschen, die nicht in ihr verqueres Weltbild passen. Aber ich fühle, wie die Schlinge um meinen Hals enger wird. Wie ich beobachtet werde, belauscht. Der Druck steigt. Aber ich werde nicht zerbrechen, nicht still bleiben. Niemals.",
+    "audio": "./mp3/TRUEEND.mp3",
+    "options": [
+      {
+        "link": "HIER BITTE DEN RETRY BUTTON EINFÜGEN",
+        "description": "Danke fürs Spielen!"
+      }
+    ]
   }
 ]

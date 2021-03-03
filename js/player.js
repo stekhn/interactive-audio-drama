@@ -64,10 +64,9 @@ function setupPage(data) {
 function loadIntro() {
   // Suche in den Story-Daten nach dem Kapitel mit der ID „intro“
   var introObject = storyData.filter(function (storyObject) {
-    return storyObject.id === 'intro';
+    return storyObject.id === 'Spawn';
   })[0];
   
-  elements.player.style.display = 'block';
   setupWave();
   updatePage(introObject);
 }
@@ -105,12 +104,18 @@ function updateContent(storyObject) {
     optionButton.textContent = option.description;
     optionsWrapper.appendChild(optionButton);
 
-    optionButton.addEventListener('click', function () {
-      var storyObject = storyData.filter(function (storyObject) {
-        return storyObject.id === option.link;
-      })[0];
+    // Versuche die Daten für das nächste Kapitel zu finden
+    var storyObject = storyData.filter(function (storyObject) {
+      return storyObject.id === option.link;
+    })[0];
 
-      updatePage(storyObject);
+    optionButton.addEventListener('click', function () {
+      // Gib einen Warnung aus, wenn keine Daten gefunden wurden
+      if (!storyObject) {
+        console.warning('Did not find story object for ', option.link)
+      } else {
+        updatePage(storyObject);
+      }
     });
   });
 
@@ -123,17 +128,25 @@ function updateContent(storyObject) {
 
 // Erstelle einen neuen Audio-Player, der die Audiospur (MP3) des jeweils ausgewählten Kapitels abspielt
 function updatePlayer(storyObject) {
+ 
+
   Howler.unload();
 
   player = new Howl({
     src: [storyObject.audio],
-    onend: resetPlayer,
+    onload: function () {
+       elements.player.style.display = 'block';
+    },
+    onloaderror: function () {
+      elements.player.style.display = 'none';
+    },
     onplay: function () {
       requestAnimationFrame(updateProgressBar);
     },
     onseek: function () {
       requestAnimationFrame(updateProgressBar);
-    }
+    },
+    onend: resetPlayer
   });
 
   startPlayer();
@@ -195,9 +208,6 @@ function skipTo(event) {
   var fractionX = clickX / elementWidth;
   var newPosition = player.duration() * fractionX;
 
-  console.log(event.target);
-  console.log(fractionX, player.duration(), newPosition);
-  
   player.seek(newPosition);
 }
 

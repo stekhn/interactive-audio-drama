@@ -16,6 +16,48 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+a {
+  color: white;
+}
+
+a:focus {
+  outline: 0;
+  color: #F8FC4F;;
+}
+
+button {
+  width: 100%;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  margin: .25em .5em .25em 0;
+  padding: .5em;
+  font-family: inherit;
+  font-size: 1em;
+  transition: all 500ms;
+}
+
+button:focus {
+  outline: 0;
+  color: #F8FC4F;
+  border-color: #F8FC4F;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #F8FC4F;
+  border-color: #F8FC4F;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 header .logo-wrapper {
   display: inline-block;
   height: 70px;
@@ -43,7 +85,6 @@ header .slash {
 }
 
 header .sharing {
-  float: right;
   display: inline-block;
   line-height: 70px;
   font-size: 1.3em;
@@ -58,7 +99,7 @@ header .sharing {
 
 header .sharing li {
   display: inline-block;
-  width: 30px;
+  width: 1.25em;
   text-align: center;
 }
 
@@ -71,7 +112,7 @@ header .sharing a {
 }
 
 header .sharing .icon {
-  height: 20px;
+  height: 1em;
   width: initial;
   transition: transform 50ms linear;
 }
@@ -86,6 +127,21 @@ article:after {
   display: block;
   content: "";
   height: 300px;
+}
+
+article .options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+article .options button {
+  flex: calc(50% - 1em) 0;
+}
+
+article .caption{
+  font-size: .8em;
 }
 
 footer {
@@ -113,69 +169,22 @@ footer::before {
 
 footer .background-wrapper {
   background: black;
-  padding: 1.25em 0;
+  padding: .5em 0 1.25em;
 }
 
 footer p {
-  margin: 1.25em;
+  font-size: .8em;
+  margin: 0 1.25em;
 }
 
-button {
-  width: 100%;
-  background: none;
-  color: white;
-  border: 2px solid white;
-  margin: .25em .5em .25em 0;
-  padding: .5em;
-  font-family: inherit;
-  font-size: 1em;
-  transition: all 500ms;
-}
-
-button:focus {
-  outline: 0;
-  color: #F8FC4F;
-  border-color: #F8FC4F;
-}
-
-button:hover {
-  cursor: pointer;
-  color: #F8FC4F;
-  border-color: #F8FC4F;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-a {
-  color: white;
-}
-
-a:focus {
-  outline: 0;
-  color: #F8FC4F;;
-}
-
-#content .options {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 2em 0;
-}
-
-#content .options button {
-  flex: calc(50% - 1em) 0;
-}
-
-#player {
+footer #player {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
 }
 
-#player .control {
+footer #player .control {
   vertical-align: middle;
   display: inline-block;
   font-size: 1.5em;
@@ -184,30 +193,31 @@ a:focus {
   margin: .25em;
 }
 
-#player .control:focus {
+footer #player .control:focus {
   outline: 0;
   color: #F8FC4F;
 }
 
-#player .play, #player .pause {
+footer #player .play,
+footer #player .pause {
   font-size: 3em;
 }
 
-#player .progress {
+footer #player .progress {
   cursor: pointer;
   width: 8em;
   margin: 0 auto;
   background-color: rgba(255,255,255,.5);
 }
 
-#player .progress-bar {
+footer #player .progress-bar {
   height: 5px;
   width: 0%;
   background-color: white;
   pointer-events: none;
 }
 
-#player .wave {
+footer #player .wave {
   position: absolute;
   top: -50%;
   left: 0;
@@ -247,11 +257,17 @@ a:focus {
     padding: 0 1.25em;
   }
 
-  #player {
+  footer #player {
     margin-bottom: 2em;
   }
 
-  #content .options {
+  article .options {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 350px) {
+  header .sharing {
+    display: none;
   }
 }

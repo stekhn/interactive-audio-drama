@@ -227,7 +227,7 @@ function setupWave() {
     width: window.innerWidth,
     height: window.innerHeight * 0.3,
     cover: true,
-    color: '#ffffff',
+    color: '#F8FC4F',
     speed: 0.05,
     amplitude: 0.7,
     frequency: 2

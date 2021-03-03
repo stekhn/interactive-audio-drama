@@ -37,9 +37,13 @@
 .icon-volume-off:before { content: '\e805'; }
 .icon-skip-left:before { content: '\e806'; }
 .icon-skip-right:before { content: '\e807'; }
+.icon-mail:before { content: '\e808'; }
 .icon-volume:before { content: '\e80a'; }
 .icon-music:before { content: '\e80d'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-facebook:before { content: '\f09a'; }
 .icon-angle-left:before { content: '\f104'; }
 .icon-angle-right:before { content: '\f105'; }
 .icon-angle-up:before { content: '\f106'; }
 .icon-angle-down:before { content: '\f107'; }
+.icon-whatsapp:before { content: '\f232'; }

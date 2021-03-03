@@ -87,7 +87,7 @@ header .slash {
 header .sharing {
   display: inline-block;
   line-height: 70px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   cursor: pointer;
   color: white;
   margin: 7px 1em 0;
@@ -103,18 +103,16 @@ header .sharing li {
   text-align: center;
 }
 
-header .sharing li:hover .icon {
-  transform: scale(1.3);
+header .sharing li:hover a {
+  color: #F8FC4F;
+}
+
+header .sharing li a {
+  transition: color 500ms;
 }
 
 header .sharing a {
   text-decoration: none;
-}
-
-header .sharing .icon {
-  height: 1em;
-  width: initial;
-  transition: transform 50ms linear;
 }
 
 article {
@@ -249,7 +247,7 @@ footer #player .wave {
   }
 
   header .logo {
-    height: 30px;
+    font-size: 1em;
   }
 
   article {

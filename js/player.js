@@ -3,11 +3,14 @@
 // Lade JavaScript erst, wenn die HTML-Seite vollständig geladen ist
 document.addEventListener('DOMContentLoaded', loadData, false);
 
-// Definiere die wichtigsten globales Variablen zur späteren Verwendung
+// Definiere die wichtigsten globalen Variablen zur späteren Verwendung
 var storyData;
 var player;
 var wave;
 var elements = {};
+
+// ID des ersten Story-Objekts, welches geladen werden soll
+var startObjectId = 'Spawn';
 
 // Lade Story-Daten aus einer externen JSON-Datei
 function loadData() {
@@ -64,7 +67,7 @@ function setupPage(data) {
 function loadIntro() {
   // Suche in den Story-Daten nach dem Kapitel mit der ID „intro“
   var introObject = storyData.filter(function (storyObject) {
-    return storyObject.id === 'Spawn';
+    return storyObject.id === startObjectId;
   })[0];
   
   setupWave();
@@ -112,7 +115,7 @@ function updateContent(storyObject) {
     optionButton.addEventListener('click', function () {
       // Gib einen Warnung aus, wenn keine Daten gefunden wurden
       if (!storyObject) {
-        console.warning('Did not find story object for ', option.link)
+        console.warn('Kein Story-Objekt für den Link mit der ID ' + option.link + ' gefunden.')
       } else {
         updatePage(storyObject);
       }
@@ -128,8 +131,6 @@ function updateContent(storyObject) {
 
 // Erstelle einen neuen Audio-Player, der die Audiospur (MP3) des jeweils ausgewählten Kapitels abspielt
 function updatePlayer(storyObject) {
- 
-
   Howler.unload();
 
   player = new Howl({

@@ -125,7 +125,7 @@ function updateContent(storyObject) {
   // Erstelle Untertitel
   var caption = document.createElement('p');
   caption.className = 'caption';
-  caption.textContent = storyObject.caption  || '';
+  caption.innerHTML = storyObject.caption  || '';
   elements.content.appendChild(caption);
 }
 

@@ -93,7 +93,7 @@ function updateContent(storyObject) {
   // Erstelle Text
   var text = document.createElement('p');
   text.className = 'text';
-  text.textContent = storyObject.text  || '';
+  text.innerHTML = storyObject.text  || '';
   elements.content.appendChild(text);
 
   // Erstelle Verpackung für die Buttons

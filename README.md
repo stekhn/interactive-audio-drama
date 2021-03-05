@@ -2,7 +2,7 @@
 
 Vorlage für ein interaktives Hörspiel, welche im im Rahmen des Seminars [„Web-Entwicklung für Journalisten“](https://github.com/stekhn/programming-workshop) von M94.5 entstanden ist. [M94.5](https://www.m945.de/) ist ein Angebot der [Mediaschool Bayern](https://www.mediaschool.bayern/).
 
-**Demo**: <https://stekhn.github.io/interactive-audio-drama/>
+**Reinhören**: <https://www.m945.de/interactive-audio-drama/>
 
 ## Verwendung
 
